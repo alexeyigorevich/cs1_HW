@@ -23,5 +23,25 @@ switch (Console.ReadLine())
         }
         break;
 
+    case "2":
+        Console.WriteLine("Введите три числа:");
+        if (int.TryParse(Console.ReadLine(), out a) && int.TryParse(Console.ReadLine(), out b) && int.TryParse(Console.ReadLine(), out c))
+        {
+            result = a;
+            if (b > result)
+            {
+                result = b;
+            }
+            if (c > result)
+            {
+                result = c;
+            }
+            Console.Write("Большее из них: " + result);
+        }
+        else
+        {
+            Console.Write("Вы ввели неверные значения");
+        }
+        break;
+
 }
-fsdfsd
