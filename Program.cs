@@ -58,5 +58,21 @@ switch (Console.ReadLine())
             }
         }
         break;
-
+    case "4":
+        Console.Write("Введите число: ");
+        if (int.TryParse(Console.ReadLine(), out a))
+        {
+            for (int i = 0; i <= a; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.Write(i + " ");
+                }
+            }
+        }
+        else
+        {
+            Console.Write("Вы ввели неверное значение");
+        }
+        break;
 }
