@@ -44,4 +44,19 @@ switch (Console.ReadLine())
         }
         break;
 
+    case "3":
+        Console.Write("Введите число: ");
+        if (int.TryParse(Console.ReadLine(), out a))
+        {
+            if (a % 2 == 0)
+            {
+                Console.Write("Число " + a + " является четным.");
+            }
+            else
+            {
+                Console.Write("Число " + a + " является нечетным.");
+            }
+        }
+        break;
+
 }
