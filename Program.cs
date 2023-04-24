@@ -59,6 +59,10 @@ switch (Console.ReadLine())
                 Console.Write("Число " + a + " является нечетным.");
             }
         }
+        else
+        {
+            Console.Write("Вы ввели неверные значения");
+        }
         break;
     case "4":
         Console.Write("Введите число: ");
