@@ -11,10 +11,12 @@ switch (Console.ReadLine())
             if (a > b)
             {
                 Console.Write("Большее из них: " + a);
+                Console.Write("Меньшее из них: " + b);
             }
             else
             {
                 Console.Write("Большее из них: " + b);
+                Console.Write("Меньшее из них: " + a);
             }
         }
         else
